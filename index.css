@@ -18,7 +18,6 @@ html {
 
 .page {
     background-color: rgb(192, 17, 192);
-    width: 450px;
     height: 175px;
     text-align: center;
     border-radius: 10px;
@@ -27,6 +26,7 @@ html {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    box-sizing: border-box;
 }
 
 .page button {
@@ -48,6 +48,9 @@ html {
 
 .pages {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 3fr);
     gap: 30px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: 20px auto;
 }
