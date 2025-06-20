@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+    line-height: 15px;
+    background-color: rgb(192, 17, 192);
+    width: 110%;
+    height: 175px;
+}
+
+.title h1 {
+    font-size: 64px;
+}
+
+html {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-color: #333;
+    color: whitesmoke;
+}
