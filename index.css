@@ -17,40 +17,23 @@ html {
 }
 
 .page {
-    background-color: rgb(192, 17, 192);
+    width: 99%;
     height: 175px;
+    background-color: rgb(192, 17, 192);
+    color: whitesmoke;
+    line-height: 5px;
     text-align: center;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    box-sizing: border-box;
-}
-
-.page button {
-    width: 275px;
-    font-size: 32px;
-    height: 45px;
-    margin: 0;
+    border-radius: 15px;
 }
 
 .page h3 {
-    font-size: 50px;
-    margin: 0;
+    font-size: 48px;
 }
 
-.page h4 {
-    font-size: 28px;
-    margin: 0;
-}
-
-.pages {
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    gap: 30px;
-    padding: 20px;
-    max-width: 1500px;
-    margin: 20px auto;
+.page button {
+    width: 98%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    font-size: 24px;
+    height: 40px;
 }
