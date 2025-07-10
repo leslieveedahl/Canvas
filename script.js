@@ -3,19 +3,15 @@ fetch("pages.json")
   .then(pages => {
     const container = document.getElementById("pages-container");
 
-    pages.forEach(filename => {
-      const title = filename
-        .replace(/[-_]/g, ' ')
-        .replace(/\.html$/, '')
-        .replace(/\b\w/g, c => c.toUpperCase());
-
+    pages.forEach(page => {
       const div = document.createElement("div");
       div.className = "page";
 
       div.innerHTML = `
         <br>
-        <h3>${title}</h3>
-        <button onclick="window.open('pages/${filename}', '_blank')">Open Page</button>
+        <h3>${page.name}</h3>
+        <h4>By: ${page.author}</h4>
+        <button onclick="window.open('pages/${page.file}', '_blank')">Open Page</button>
       `;
 
       container.appendChild(div);
