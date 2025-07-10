@@ -1,4 +1,4 @@
-ocument.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   fetch("pages.json")
     .then(res => res.json())
     .then(pages => {
