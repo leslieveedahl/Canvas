@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("pages.json")
     .then(res => res.json())
     .then(pages => {
-      const container = document.getElementById("pages-container");
+      const container = document.getElementById("pages");
 
       pages.forEach(page => {
         const div = document.createElement("div");
