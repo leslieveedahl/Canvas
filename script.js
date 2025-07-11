@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
           <br>
           <h3>${page.name}</h3>
           <h4>By: ${page.author}</h4>
-          <button onclick="window.open('pages/${page.file}', '_blank')">Open Page</button>
+          <a href="pages/${page.file}" target="_blank" rel="noopener">
+            <button>Open Page</button>
+          </a>
         `;
 
         container.appendChild(div);
