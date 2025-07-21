@@ -3,5 +3,10 @@
     "name": "Henry V (Example)",
     "author": "Henry",
     "file": "henry/henry.html"
+  },
+   {
+    "name": "Leslie",
+    "author": "Leslie",
+    "file": "mom/mom.html"
   }
 ]
